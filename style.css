@@ -1,0 +1,192 @@
+header{
+	background-color: yellow;
+    width: 1280px;
+    height: 89px;
+    
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body {
+  font-size: 1,8em;
+}
+
+.container1{
+	background-color: pink;
+	align-content: left;
+	width: 147px;
+	height: 1200px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+p {
+  font-size: 15px;
+  text-align: justify;
+
+}
+
+.parent {
+  max-width: 18em;
+  margin: 10 auto;
+  transform: translate(170%, -60%) ;
+
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -70px;/*висота від контента(хедера)*/
+
+
+}
+
+.item {
+  color: #000;
+  flex: 1 1 40%;
+  padding: 15px;
+  margin: 5px;
+  box-sizing: border-box;
+
+
+}
+
+.small {
+  flex: 1 1 33%;
+}
+
+.billet {
+  background: #eee;
+  height: 100%;/*незнаю*/
+  width: 300%; /*незнаю*/
+  padding: 40px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+nav{
+	background-color: ;
+	width: 147px;
+	margin:10px;
+	padding: 20px;
+	bottom: 0px;
+    right: 0px;
+	border-radius:10px;
+	line-height: 30px;
+
+}
+.flex-box {
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.flex-box {
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+@media screen and (min-width: 640px)
+header .flex-box {
+    flex: 1;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.menu-holder-box {
+    margin: 0 0 0 30px;
+}
+.logo{
+  transform: translate(10%, -15px) ;
+}
+button{
+  background-color: black;
+  width: 148px;
+  height: 41px;
+  color: white;
+  transform: translate(60%,-100%) ;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.d1 {background: ;}
+.d1 input {
+  width: 25%;
+  height: 41px;
+  padding-left: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+  outline: none;
+  background: #F9F0DA;
+  color: #9E9C9C;
+  transform: translate(90%,-180%) ;
+
+}
+.d1 button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 120px;
+  height: 41px;
+  border: none;
+  background: #7BA7AB;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transform: translate(110%,-180%) ;
+}
+.d1 button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}
+.flex{
+  border: solid 3px #000;
+  margin: 0 auto;
+  overflow: hidden;
+  width:1280px; 
+  height:100px;
+  border-radius: 5px;
+}
+.wrapper{
+  display: flex;
+  margin-top: 20px;
+  position: relative;
+  transition: left 1s ease-in-out;
+}
+.box {
+  color: #fff;
+  flex: 0 0 20%;
+}
+.img{
+  display: flex;
+  border-radius: 5px;
+ 
+}
+img{
+  border-radius: 5px;
+  margin-top: 20px;
+  position  : relative;
+}
+footer{
+  width: 1270px;
+  height: 263px;
+  background-color: silver;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+h2{
+  transform: translate(5%, 5%);
+}
+h4{
+  transform: translate(5%, 5%);
+  line-height: 5px;
+}
+
+h3{
+  transform: translate(20%, -570%);
+}
