@@ -190,3 +190,62 @@ h4{
 h3{
   transform: translate(20%, -570%);
 }
+.button{
+  background-color: black; 
+  transform: translate(190%, -700%);
+  width: 250px;
+  border:none;
+
+}
+.photo{
+  transform: translate(300%, -700%);
+}
+.gallery{
+  transform: translate(330%, -900%);
+}
+.profilephoto{
+  transform: translate(800%, -480%);
+}
+.text{
+  font-size: 14px;
+  transform: translate(10%);
+}
+.word{
+  font-size:14px;
+  transform: translate(80%, -170%);
+}
+.picture{
+  transform: translate(1450%, -550%);
+}
+.txt{
+  transform: translate(20%, -470%);
+}
+.someclass{
+  transform: translate(20%, -2600%);
+}
+.xx{
+  transform: translate(20%, -2600%);
+}
+.xxx{
+  transform: translate(20%, -2600%);
+}
+.xxxx{
+  transform: translate(20%, -2600%);
+}
+.xxxxx{
+  transform: translate(20%, -2600%);
+}
+.xxxxxx{
+transform: translate(20%, -2600%);
+}
+.xxxxxxx{
+  transform: translate(20%, -2600%);
+}
+/*.pic{
+  transform: translate(130%, -100%);
+  width:100px ;
+  height:100px; */
+}
+.texto{
+  font-size: 
+}
