@@ -53,6 +53,7 @@ p {
   box-sizing: border-box;
 
 
+
 }
 
 .small {
@@ -60,10 +61,10 @@ p {
 }
 
 .billet {
-  background: #eee;
+  background:   #d4d4d4; /*цвет плашки*/
   height: 100%;/*незнаю*/
   width: 300%; /*незнаю*/
-  padding: 40px;
+  padding: 10px;
   box-sizing: border-box;
   border-radius: 10px;
 }
@@ -145,26 +146,32 @@ button{
   color: #F9F0DA;
 }
 .flex{
-  border: solid 3px #000;
+  
   margin: 0 auto;
   overflow: hidden;
   width:1280px; 
-  height:100px;
+  height:300px;
   border-radius: 5px;
+   background-color:  #d4d4d4;
 }
 .wrapper{
   display: flex;
   margin-top: 20px;
   position: relative;
   transition: left 1s ease-in-out;
+
+
+
 }
 .box {
   color: #fff;
   flex: 0 0 20%;
+  
 }
 .img{
   display: flex;
   border-radius: 5px;
+
  
 }
 img{
@@ -175,7 +182,7 @@ img{
 footer{
   width: 1270px;
   height: 263px;
-  background-color: silver;
+  background-color:   #d4d4d4;
   margin-top: 20px;
   border-radius: 5px;
 }
@@ -248,4 +255,78 @@ transform: translate(20%, -2600%);
 }
 .texto{
   font-size: 
+}
+.xc{
+  transform: translate(1%, -700%);
+  color: white;
+  font-size: 40px;
+  font-family: Avenir;
+  letter-spacing: normal;
+}
+.xv{
+  transform: translate(1%, -2200%);
+  color: white;
+}
+.xb{
+  transform: translate(50%, -950%);
+  color: white;
+  font-size: 40px;
+  font-family: Avenir;
+  letter-spacing: normal;
+}
+.xm{
+transform: translate(50%, -2900%);
+  color: white;
+
+}
+.button1{
+  background-color: black; 
+  transform: translate(10%, 40%);
+  width: 250px;
+  border:none;
+}
+.smart{
+  width:150px ;
+  height: 120px;
+  position: absolute;
+  transform: translate(-110%,-160%);
+}
+.sch{
+  transform: translate(10%,600%);'
+
+
+}
+.rook{
+ transform: translate(60%,600%); 
+}
+.schh{
+   transform: translate(100%,600%); 
+}
+.rookm{
+  transform: translate(140%,600%); 
+}
+.oncl{
+ transform: translate(1290%,-395%); 
+ width: 60px;
+ border:none;
+}
+.clicki{
+transform: translate(530%,-348%); 
+background-color: white;
+border: none;
+color: black;
+
+}
+
+.onki{
+  transform: translate(1000%,-335%); 
+  border: none;
+  width: 80px;
+}
+.vata{
+  width:1200px ;
+  height:15px ;
+  border-radius: 5px;
+  transform: translate(25%,-1185%); 
+
 }
