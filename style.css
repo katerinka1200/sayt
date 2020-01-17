@@ -1,6 +1,6 @@
 header{
 	background-color: yellow;
-    width: 1280px;
+    max-width: 1280px;
     height: 89px;
     
     padding: 0px;
@@ -15,7 +15,7 @@ body {
 .container1{
 	background-color: pink;
 	align-content: left;
-	width: 147px;
+	max-width: 147px;
 	height: 1200px;
 }
 
@@ -62,15 +62,15 @@ p {
 
 .billet {
   background:   #d4d4d4; /*цвет плашки*/
-  height: 100%;/*незнаю*/
-  width: 300%; /*незнаю*/
+  height: 120%;/*незнаю*/
+  max-width: 300%; /*незнаю*/
   padding: 10px;
   box-sizing: border-box;
   border-radius: 10px;
 }
 nav{
 	background-color: ;
-	width: 147px;
+	max-width: 147px;
 	margin:10px;
 	padding: 20px;
 	bottom: 0px;
@@ -111,7 +111,7 @@ button{
   height: 41px;
   color: white;
   transform: translate(60%,-100%) ;
-  border: 2px solid white;
+  border: 2px;
   border-radius: 5px;
 }
 .d1 {background: ;}
@@ -149,7 +149,7 @@ button{
   
   margin: 0 auto;
   overflow: hidden;
-  width:1280px; 
+  max-width:1280px; 
   height:300px;
   border-radius: 5px;
    background-color:  #d4d4d4;
@@ -305,28 +305,34 @@ transform: translate(50%, -2900%);
 .rookm{
   transform: translate(140%,600%); 
 }
-.oncl{
- transform: translate(1290%,-395%); 
+.oncl{ /*Excl.*/
+ transform: translate(1290%,-405%); 
  width: 60px;
  border:none;
 }
-.clicki{
-transform: translate(530%,-348%); 
+.clicki{   /*Inloggen*/
+transform: translate(530%,-360%); 
 background-color: white;
 border: none;
 color: black;
 
 }
 
-.onki{
-  transform: translate(1000%,-335%); 
+.onki{ /*кнопка купить*/
+  transform: translate(1000%,-346%); 
   border: none;
   width: 80px;
 }
-.vata{
+.vata{    /*нижний текст в шапке*/
   width:1200px ;
   height:15px ;
   border-radius: 5px;
   transform: translate(25%,-1185%); 
 
+}
+.kart{
+  transform: translate(2100%,1100%);
+}
+.kartinka{
+  transform: translate(-1420%,1100% );
 }
